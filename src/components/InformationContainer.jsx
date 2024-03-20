@@ -10,11 +10,15 @@ const InformationContainer = () => {
             <h3>Telefone</h3>
             <p>(84) 988357669</p>
         </div>
+    </div>
+    <div className="info-card">
         <AiOutlineMail id='email-icon' />
         <div>
             <h3>E-mail</h3>
             <p>paulomonteiro98@outlook.com</p>
         </div>
+    </div>
+    <div className="info-card1">
         <AiFillEnvironment id='pin-icon' />
         <div>
             <h3>Localização</h3>
