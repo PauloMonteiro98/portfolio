@@ -6,10 +6,12 @@
     flex: 2 1 0
     border-radius: variables.$container-border-radius
     padding: 3rem
+    
 
     section
         display: flex
         flex-direction: column
+        margin-bottom: 2rem
     h2
         @include mixins.center
         color: variables.$text-color
@@ -29,4 +31,6 @@
     .btn
         @include mixins.btn
         align-self: start
-            
+        &:hover
+            background: linear-gradient(16deg, #4729b3b0 0%, #391dc3bb 65%)
+            transform: scale(1.2)
